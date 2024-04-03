@@ -1,13 +1,15 @@
 
 import { Container } from "@mui/material";
-import Product from "./Components/product";
-import MarketCard from "./Components/MarketCard";
+import Navbar from "./Components/navbar/Navbar";
+import NavListDrawer from "./Components/navbar/NavListDrawer";
+
 
 export default function App() {
   return(
     <Container maxWidth="xl">
-      <Product />
-      <MarketCard />
+
+      <Navbar />
+      <NavListDrawer />
     </Container>
     
   )
