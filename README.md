@@ -3,8 +3,7 @@
 
 # React + Vite
 
-![Descripción de la imagen](ruta/a/tu/imagen/react_mui_romina_navarrete.png)
-
+![react_mui_romina_navarrete](https://github.com/rominarg/material_ui_react/assets/45200064/45094279-2909-414f-a3a5-8ac67ec3195f)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
