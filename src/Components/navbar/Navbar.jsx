@@ -48,7 +48,7 @@ export default function Navbar() {
           variant="h6"
           sx={{ flexGrow: 1 }}
         >
-          Motorcicle
+          LOGO
         </Typography>
 
         <Box sx={{ display: { xs: "none", sm: "block" } }}>
