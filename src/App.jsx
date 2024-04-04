@@ -1,7 +1,10 @@
 
-import { Container } from "@mui/material";
+import { Container} from "@mui/material";
 import Navbar from "./Components/navbar/Navbar";
 import MarketCard from "./Components/MarketCard";
+import Footer from "./Components/footer";
+
+
 
 export default function App() {
     return (
@@ -10,6 +13,7 @@ export default function App() {
         <Container sx={{ mt: 12 }}>
         <MarketCard />
         </Container>
+        <Footer />
       </>
     );
   }

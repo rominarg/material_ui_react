@@ -15,6 +15,16 @@ const navLinks = [
       icon: <InboxIcon />,
     },
     {
+      title: "Services",
+      path: "#Services",
+      icon: <DraftsIcon />,
+    },
+    {
+      title: "About",
+      path: "#About",
+      icon: <DraftsIcon />,
+    },
+    {
       title: "Login",
       path: "#login",
       icon: <DraftsIcon />,
@@ -32,7 +42,7 @@ export default function Navbar() {
 
   return (
     <>
-    <AppBar position="fixed" sx={{ backgroundColor: "black" }}>
+    <AppBar position="fixed" sx={{ backgroundColor: '#333'}}>
       <Toolbar>
         <IconButton
           color="inherit"
