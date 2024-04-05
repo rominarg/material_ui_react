@@ -10,7 +10,7 @@ export default function App() {
     return (
       <>
         <Navbar />
-        <Container sx={{ mt: 12, marginBottom: '40px'  }}>
+        <Container sx={{  }}>
         <MarketCard />
         </Container>
         <Footer />

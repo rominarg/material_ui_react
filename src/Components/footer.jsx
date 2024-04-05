@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Grid, Typography, Link, IconButton, Divider } from '@mui/material';
 import { Facebook, Twitter, Google, Instagram, LinkedIn, GitHub } from '@mui/icons-material';
 
@@ -42,7 +41,7 @@ const Footer = () => {
             {/* Grid column */}
             <Grid item xs={12} sm={6} md={3}>
               <Typography variant="h6" gutterBottom>Company name</Typography>
-              <Divider style={{ backgroundColor: '#7c4dff', width: '60px', height: '2px', marginBottom: '1rem' }} />
+              <Divider style={{ backgroundColor: '#fff', width: '60px', height: '2px', marginBottom: '1rem' }} />
               <Typography variant="body2" paragraph>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               </Typography>
@@ -52,7 +51,7 @@ const Footer = () => {
             {/* Grid column */}
             <Grid item xs={12} sm={6} md={3}>
               <Typography variant="h6" gutterBottom>Products</Typography>
-              <Divider style={{ backgroundColor: '#7c4dff', width: '60px', height: '2px', marginBottom: '1rem' }} />
+              <Divider style={{ backgroundColor: '#fff', width: '60px', height: '2px', marginBottom: '1rem' }} />
               <Typography variant="body2" paragraph>
                 <Link href="#" color="inherit">MDBootstrap</Link>
               </Typography>
@@ -71,7 +70,7 @@ const Footer = () => {
             {/* Grid column */}
             <Grid item xs={12} sm={6} md={3}>
               <Typography variant="h6" gutterBottom>Useful links</Typography>
-              <Divider style={{ backgroundColor: '#7c4dff', width: '60px', height: '2px', marginBottom: '1rem' }} />
+              <Divider style={{ backgroundColor: '#fff', width: '60px', height: '2px', marginBottom: '1rem' }} />
               <Typography variant="body2" paragraph>
                 <Link href="#" color="inherit">Your Account</Link>
               </Typography>
@@ -90,7 +89,7 @@ const Footer = () => {
             {/* Grid column */}
             <Grid item xs={12} sm={6} md={3}>
               <Typography variant="h6" gutterBottom>Contact</Typography>
-              <Divider style={{ backgroundColor: '#7c4dff', width: '60px', height: '2px', marginBottom: '1rem' }} />
+              <Divider style={{ backgroundColor: '#fff', width: '60px', height: '2px', marginBottom: '1rem' }} />
               <Typography variant="body2" paragraph><i className="fas fa-home mr-3"></i> New York, NY 10012, US</Typography>
               <Typography variant="body2" paragraph><i className="fas fa-envelope mr-3"></i> info@example.com</Typography>
               <Typography variant="body2" paragraph><i className="fas fa-phone mr-3"></i> + 01 234 567 88</Typography>
