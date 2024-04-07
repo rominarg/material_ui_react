@@ -16,7 +16,7 @@ export default function MarketCard() {
             <CardActionArea>
               <CardMedia
                 component="img"
-                image="https://via.placeholder.com/1000x200"
+                image="https://motos.honda.com.ar/uploads/modelos/61/images/sliders/333_0s-0img-navi-diseno.jpg"
                 height="200"
                 alt="Card Image"
               />
