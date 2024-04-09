@@ -5,6 +5,7 @@ import Banner from "./Components/Banner";
 import MarketCard from "./Components/MarketCard";
 import Footer from "./Components/footer";
 import Typography from '@mui/material/Typography';
+import GridCard from "./Components/GridCard";
 
 export default function App() {
     return (
@@ -20,6 +21,7 @@ export default function App() {
             <Typography variant="h4" align="center" gutterBottom>
             DESCUBRE TU HONDA
             </Typography>
+            <GridCard />
             <Footer />
             </>
     );
