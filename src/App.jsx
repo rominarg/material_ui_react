@@ -22,6 +22,9 @@ export default function App() {
             DESCUBRE TU HONDA
             </Typography>
             <GridCard />
+            <Typography variant="h4" align="center" gutterBottom sx={{ marginTop: '30px' }}>
+        NOVEDADES
+      </Typography>
             <Footer />
             </>
     );
