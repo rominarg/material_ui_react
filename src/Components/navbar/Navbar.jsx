@@ -1,4 +1,4 @@
-import { AppBar, Button, Drawer, IconButton, Toolbar, Typography } from "@mui/material";
+import { AppBar, Button, Drawer, IconButton, Toolbar } from "@mui/material";
 
 import NavListDrawer from "./NavListDrawer";
 import { useState } from "react";
@@ -6,7 +6,7 @@ import { Box } from "@mui/system";
 import MenuIcon from "@mui/icons-material/Menu";
 import InboxIcon from "@mui/icons-material/Inbox";
 import DraftsIcon from "@mui/icons-material/Drafts";
-
+import Logo from "../../assets/img/logo.png"; 
 
 const navLinks = [
     {
@@ -54,12 +54,9 @@ export default function Navbar() {
         >
           <MenuIcon />
         </IconButton>
-        <Typography
-          variant="h6"
-          sx={{ flexGrow: 1 }}
-        >
-          LOGO
-        </Typography>
+        <img src={Logo} alt="Logo" style={{ height: "20px", marginRight: "10px" }} /> 
+        <Box sx={{ flexGrow: 1 }}>
+        </Box>
 
         <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navLinks.map((item) => (

@@ -32,7 +32,7 @@ export default function MarketCard() {
             </CardActionArea>
     
             <CardActions>
-              <Button variant="contained">Add</Button>
+            <Button variant="contained" sx={{ backgroundColor: '#CC0001', color: '#FFFFFF' }}>Add</Button>
               <Button>Remove</Button>
             </CardActions>
           </Card>
