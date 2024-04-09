@@ -3,7 +3,7 @@ import { Button, Card, CardActionArea, CardActions, CardContent, CardMedia, Grid
 export default function MarketCard() {
   return (
     <Grid container spacing={3}>
-      {[...Array(12)].map((_, index) => (
+      {[...Array(6)].map((_, index) => (
         <Grid item xs={12} sm={6} md={4} key={index}>
           <Card
             sx={{

@@ -9,31 +9,28 @@ const Footer = () => {
         {/* Section: Social media */}
         <section style={{ backgroundColor: '#CC0001', textAlign: 'center', width: '100%', padding: '1rem 0' }}> {/* Centra los elementos */}
           <Grid container justifyContent="center" alignItems="center"> 
-            <Grid item>
-              <Typography variant="body1" gutterBottom>Get connected with us on social networks:</Typography>
-            </Grid>
-            <Grid item>
-              <IconButton href="#" target="_blank" rel="noopener" color="inherit">
-                <Facebook />
-              </IconButton>
-              <IconButton href="#" target="_blank" rel="noopener" color="inherit">
-                <Twitter />
-              </IconButton>
-              <IconButton href="#" target="_blank" rel="noopener" color="inherit">
-                <Google />
-              </IconButton>
-              <IconButton href="#" target="_blank" rel="noopener" color="inherit">
-                <Instagram />
-              </IconButton>
-              <IconButton href="#" target="_blank" rel="noopener" color="inherit">
-                <LinkedIn />
-              </IconButton>
-              <IconButton href="#" target="_blank" rel="noopener" color="inherit">
-                <GitHub />
-              </IconButton>
-            </Grid>
+          <Grid item>
+          <Typography variant="body1" gutterBottom>Get connected with us on social networks:</Typography>
           </Grid>
-        </section>
+          <Grid item>
+          <IconButton href="https://www.facebook.com" target="_blank" rel="noopener" color="inherit">
+          <Facebook />
+          </IconButton>
+          <IconButton href="https://twitter.com" target="_blank" rel="noopener" color="inherit">
+          <Twitter />
+          </IconButton>
+          <IconButton href="https://www.google.com" target="_blank" rel="noopener" color="inherit">
+          <Google />
+          </IconButton>
+          <IconButton href="https://www.instagram.com" target="_blank" rel="noopener" color="inherit">
+          <Instagram />
+          </IconButton>
+          <IconButton href="https://www.linkedin.com" target="_blank" rel="noopener" color="inherit">
+          <LinkedIn />
+          </IconButton>
+          </Grid>
+  </Grid>
+</section>
         {/* Section: Social media */}
 
         {/* Section: Links */}

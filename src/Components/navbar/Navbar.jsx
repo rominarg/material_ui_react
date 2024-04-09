@@ -42,7 +42,7 @@ export default function Navbar() {
 
   return (
     <>
-    <AppBar position="fixed" sx={{ backgroundColor: '#333'}}>
+    <AppBar position="fixed" sx={{ backgroundColor: '#fff', color: '#FF0000'}}>
       <Toolbar>
         <IconButton
           color="inherit"

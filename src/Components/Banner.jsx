@@ -1,4 +1,4 @@
-import navi_honda from "../assets/img/navi_honda.jpg";
+import navi_honda from "../assets/img/70familia-xr.jpg";
 
 function Banner() {
   return (
