@@ -7,7 +7,8 @@ Material UI es una biblioteca de componentes de interfaz de usuario para React q
 
 Documentación oficial aquí: [Material UI](https://mui.com/material-ui)
 
-![react_mui_romina_navarrete](https://github.com/rominarg/material_ui_react/assets/45200064/45094279-2909-414f-a3a5-8ac67ec3195f)
+![material_mui_romina_navarrete](https://github.com/rominarg/material_ui_react/assets/45200064/ae88a4d9-3636-4e72-9d0e-931af1f06c1b)
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
