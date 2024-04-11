@@ -30,7 +30,7 @@ function App() {
     return (
           <>
             <Navbar />
-            <div style={{width: '100%', height: '80vh', marginTop: '55px'}}>
+            <div style={{width: '100%', height: '70vh', marginTop: '54px'}}>
               <ImageGallery items={images} 
               showPlayButton={false}
               showFullscreenButton={false}
@@ -39,13 +39,13 @@ function App() {
               />
             </div>
             {/* <Banner /> */}
-            <Typography variant="h3" align="center" gutterBottom sx={{ marginTop: '100px' }}>
-            Últimas novedades
+            <Typography variant="h4" align="center" gutterBottom sx={{ marginTop: '100px' }}>
+            ÚLTIMOS INGRESOS
             </Typography>
-            <Container sx={{ mt: 12, marginBottom: '0px'  }}>
+            <Container sx={{ mt: 3, marginBottom: '30px'  }}>
             <MarketCard />
             </Container>
-            <Typography variant="h4" align="center" gutterBottom>
+            <Typography variant="h4" align="center" gutterBottom sx={{ marginTop: 3 }}>
             DESCUBRE TU HONDA
             </Typography>
             <GridCard />
