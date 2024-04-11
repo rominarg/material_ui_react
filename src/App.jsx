@@ -39,10 +39,10 @@ function App() {
               />
             </div>
             {/* <Banner /> */}
-            <Typography variant="h4" align="center" gutterBottom>
+            <Typography variant="h3" align="center" gutterBottom sx={{ marginTop: '100px' }}>
             Últimas novedades
             </Typography>
-            <Container sx={{ mt: 12, marginBottom: '40px'  }}>
+            <Container sx={{ mt: 12, marginBottom: '0px'  }}>
             <MarketCard />
             </Container>
             <Typography variant="h4" align="center" gutterBottom>

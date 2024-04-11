@@ -65,6 +65,7 @@ export default function Navbar() {
                 key={item.title}
                 component="a"
                 href={item.path}
+                sx={{ fontWeight: 'bold' }}
               >
                 {item.title}
               </Button>
