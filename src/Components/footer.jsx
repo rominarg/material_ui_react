@@ -1,5 +1,5 @@
 import { Container, Grid, Typography, Link, IconButton, Divider } from '@mui/material';
-import { Facebook, Twitter, Google, Instagram, LinkedIn, GitHub } from '@mui/icons-material';
+import { Facebook, Twitter, Google, Instagram, LinkedIn } from '@mui/icons-material';
 import Logo from "../assets/img/logo.png";
 
 const Footer = () => {
