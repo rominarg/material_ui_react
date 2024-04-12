@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import GridCard from "./Components/GridCard";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import SecondCarousel from "./SecondCarousel";
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
             <Typography variant="h4" align="center" gutterBottom sx={{ marginTop: '30px' }}>
         NOVEDADES
       </Typography>
+      <SecondCarousel />
             <Footer />
             </>
   );
