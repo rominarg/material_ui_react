@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import GridCard from "./Components/GridCard";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-import SecondCarousel from "./SecondCarousel";
+import SecondCarousel from "./Components/SecondCarousel";
 
 function App() {
 

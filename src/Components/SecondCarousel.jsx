@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import "react-image-gallery/styles/css/image-gallery.css";
 
 function SecondCarousel() {
   const images = [
