@@ -36,7 +36,7 @@ function App() {
               showPlayButton={false}
               showFullscreenButton={false}
               showThumbnails={false}
-              showBullets={true}
+              showBullets={false}
               />
             </div>
             {/* <Banner /> */}
@@ -53,7 +53,9 @@ function App() {
             <Typography variant="h4" align="center" gutterBottom sx={{ marginTop: '30px' }}>
         NOVEDADES
       </Typography>
+      <Container sx={{ marginBottom: '30px' }}>
       <SecondCarousel />
+      </Container>
             <Footer />
             </>
   );
