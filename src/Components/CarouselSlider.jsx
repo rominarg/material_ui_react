@@ -16,10 +16,6 @@ function App() {
       original: "https://motos.honda.com.ar/uploads/home/slides/56slides-motos-2023-wave.jpg",
       thumbnail: "https://picsum.photos/id/1019/250/150/",
     },
-    {
-      original: "https://motos.honda.com.ar/uploads/home/slides/56slides-motos-2023-wave.jpg",
-      thumbnail: "https://picsum.photos/id/1019/250/150/",
-    },
   ];
 
 
