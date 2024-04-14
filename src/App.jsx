@@ -1,7 +1,6 @@
 
 import { Container} from "@mui/material";
 import Navbar from "./Components/navbar/Navbar";
-// import Banner from "./Components/Banner";
 import MarketCard from "./Components/MarketCard";
 import Footer from "./Components/footer";
 import Typography from '@mui/material/Typography';
