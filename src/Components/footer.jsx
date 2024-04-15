@@ -1,13 +1,14 @@
 import { Container, Grid, Typography, Link, IconButton, Divider } from '@mui/material';
 import { Facebook, Twitter, Google, Instagram, LinkedIn } from '@mui/icons-material';
 import Logo from "../assets/img/logo.png";
+import DATAWEB from "../assets/img/DATAWEB.jpg"
 
 const Footer = () => {
   return (
     <footer style={{ backgroundColor: '#333', color: '#fff' }}>
       <Container>
         {/* Section: Social media */}
-        <section style={{ backgroundColor: '#CC0001', textAlign: 'center', width: '100%', padding: '1rem 0' }}> {/* Centra los elementos */}
+        <section style={{ backgroundColor: '#CC0001', textAlign: 'center', width: '100%', padding: '1rem 0',margin: '0' }}> {/* Centra los elementos */}
           <Grid container justifyContent="center" alignItems="center"> 
           <Grid item>
           <Typography variant="body1" gutterBottom>Get connected with us on social networks:</Typography>
@@ -106,8 +107,8 @@ const Footer = () => {
               <Divider style={{ backgroundColor: '#fff', width: '60px', height: '2px', marginBottom: '1rem' }} />
               <Typography variant="body2" paragraph><i className="fas fa-home mr-3"></i> New York, NY 10012, US</Typography>
               <Typography variant="body2" paragraph><i className="fas fa-envelope mr-3"></i> info@example.com</Typography>
-              <Typography variant="body2" paragraph><i className="fas fa-phone mr-3"></i> + 01 234 567 88</Typography>
-              <Typography variant="body2" paragraph><i className="fas fa-print mr-3"></i> + 01 234 567 89</Typography>
+              <Typography variant="body2" paragraph><i className="fas fa-phone mr-3"></i> 08001333897</Typography>
+              <img src={DATAWEB} alt="Foto de contacto" style={{ width: '90px', height: 'auto', marginTop: '1rem' }} />
             </Grid>
             {/* Grid column */}
           </Grid>
