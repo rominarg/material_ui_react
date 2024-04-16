@@ -53,7 +53,7 @@ function App() {
         NOVEDADES
       </Typography>
       <Container sx={{ marginBottom: '30px' }}>
-      
+      <SecondCarousel />
       </Container>
             <Footer />
             </>
