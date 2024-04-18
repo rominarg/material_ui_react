@@ -3,11 +3,13 @@ import { Container} from "@mui/material";
 import Navbar from "./Components/navbar/Navbar";
 import MarketCard from "./Components/MarketCard";
 import Footer from "./Components/footer";
+import FooterMobile from "./Components/FooterMobile";
 import Typography from '@mui/material/Typography';
 import GridCard from "./Components/GridCard";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import SecondCarousel from "./Components/SecondCarousel";
+import { useMediaQuery } from "@mui/material";
 
 function App() {
 
@@ -25,7 +27,8 @@ function App() {
       thumbnail: "https://picsum.photos/id/1019/250/150/",
     },
   ];
-
+ 
+  const isMobile = useMediaQuery('(max-width:600px)');
 
     return (
           <>
@@ -55,7 +58,7 @@ function App() {
       <Container sx={{ marginBottom: '30px' }}>
       <SecondCarousel />
       </Container>
-            <Footer />
+      {isMobile ? <FooterMobile /> : <Footer />}
             </>
   );
 }
